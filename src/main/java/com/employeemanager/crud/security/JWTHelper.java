@@ -14,6 +14,7 @@ public class JWTHelper {
 
     SecretKey key = Jwts.SIG.HS256.key().build(); // or HS384.key() or HS512.key()
 
+    @SuppressWarnings("unused")
     private String generateToken(String sub, String role) {
         return Jwts.builder()
                 .subject(sub)
