@@ -16,7 +16,7 @@ import com.employeemanager.crud.service.RoleService;
 
 @RestController
 @RequestMapping("/roles")
-@CrossOrigin(origins = "https://localhost")
+@CrossOrigin(origins = "*") // change Origin as needed
 public class RoleController {
 
     @Autowired

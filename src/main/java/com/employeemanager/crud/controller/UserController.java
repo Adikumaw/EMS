@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
 @RequestMapping("/users")
-@CrossOrigin(origins = "https://localhost")
+@CrossOrigin(origins = "*") // change Origin as needed
 public class UserController {
     @Autowired
     private UserService userService;

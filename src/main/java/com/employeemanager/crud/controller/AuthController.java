@@ -20,7 +20,7 @@ import com.employeemanager.crud.security.service.CustomUserDetailsService;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "https://localhost")
+@CrossOrigin(origins = "*") // change Origin as needed
 public class AuthController {
     @Autowired
     private CustomUserDetailsService customUserDetailsService;

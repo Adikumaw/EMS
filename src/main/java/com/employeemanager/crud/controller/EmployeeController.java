@@ -18,7 +18,7 @@ import com.employeemanager.crud.service.EmployeeService;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "https://localhost")
+@CrossOrigin(origins = "*") // change Origin as needed
 public class EmployeeController {
 
     @Autowired
