@@ -1,6 +1,6 @@
 # Employee Management System Backend
 
-This is the backend of an Employee Management System built with Java Spring Boot. It provides RESTful APIs for managing users, roles, and employees. The system includes JWT authentication for secure login and role-based access control.
+This is the backend of an Employee Management System built with Java Spring Boot. It provides RESTful APIs for managing users, roles, and employees. The system includes JWT authentication for secure login and role-based access control. The UI for this system can be accessed [here](https://github.com/Adikumaw/EMS-UI)."
 
 ## Features
 
